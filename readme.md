@@ -1,3 +1,5 @@
+# End-to-end Framework for Metasurface-based Optical Deep Learning
+
 This repository contains the files that are necessary to run the pipeline of out hybrid CNNs on different datasets using different architectures.
 Each folder corresponds to a different (architecture,dataset) pair.
 In order to run the pipeline in the ideal case (ignoring the effects of cross-talk between channels), run the hybrid_onn_pipeline_ideal.py file of the corresponding folder on a terminal.
@@ -28,4 +30,7 @@ After that, move to the cloned repository's directory and run this command to in
  conda activate tensorflowenv
  python hybrid_onn_pipeline_nonideal.py
   ```
-# metasurface-dnn
+
+## Publication ##
+This project contains the artifact for our paper [End-to-End Framework for Efficient Deep Learning Using Metasurfaces Optics]().
+
